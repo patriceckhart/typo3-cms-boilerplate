@@ -44,6 +44,8 @@
 		"typo3/cms-t3editor": "^10.2",
 		"typo3/cms-tstemplate": "^10.2",
 		"typo3/cms-viewpage": "^10.2",
+		"svewap/ws-scss": "^1.1",
+		"b13/container": "^1.1",
 		"patriceckhart/base": "0.1.x-dev",
 		"patriceckhart/provider": "0.1.x-dev"
 	}

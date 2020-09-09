@@ -1,0 +1,23 @@
+{
+    "name": "patriceckhart/provider",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 CMS site-package",
+    "homepage": "https://www.patriceckhart.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^10.2",
+        "typo3/cms-rte-ckeditor": "^10.2",
+        "typo3/cms-fluid-styled-content": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PatricEckhart\\Provider\\": "Classes/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+    }
+}
